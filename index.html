@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rocket copy</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="fontawesome-free-5.13.0-web"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="fonts/fontawesome.min.css"> -->
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header__first">
+                <div class="header__first-container">
+                    <ul class="right">
+                        <li><a href="#">کانال تلگرام</a></li>
+                        <li><a href="#">درباره راکت</a></li>
+                        <li><a href="#">همکاری با ما</a></li> 
+                    </ul>
+                    <ul class="left">
+                    <li><a href="#">سوالات متداول</a></li>
+                    <li><a href="#">ارتباط با ما</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header__two">
+                <div class="header__two-container">
+                    <h1><a href="#">وب سایت آموزشی <span>راکت</span></a></h1>
+                    <form class="search" action="#">
+                        <input type="text" placeholder="دنبال چی می گردی؟">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                    <div class="acount">
+                    <ul>
+                        <li><a href="#">ورود</a></li>
+                        <li><a href="#">عضویت</a></li>
+                    </ul>
+                    </div>
+                </div>
+                <!-- hamburger menue -->
+                <div class="hamberger-menu" id="hamberger">
+                    <a href="#" id="buton" onclick="opend()"><i class="fa fa-bars"></i></a>
+                </div>
+                <div id="hambergerMenu-content">
+                    <ul>
+                        <li class="search-menu">
+                            <form class="search" action="#">
+                                <input type="text" placeholder="دنبال چی می گردی؟">
+                            </form>
+                        </li>
+                        <li><a href="#">صفحه اصلی</a></li>
+                        <li><a href="#">ورود</a></li>
+                        <li><a href="#">عضویت</a></li>
+                        <li><a href="#">بحث و گفتگوها</a></li>
+                        <li><a href="#">دوره های آموزشی</a></li>
+                        <li><a href="#">آخرین ویدیوها</a></li>
+                        <li><a href="#">گام های یادگیری</a></li>
+                        <li><a href="#">مقالات</a></li>
+                        <li><a href="#">راکت ساز</a></li>
+                        <li><a href="#">رزومه ساز</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header__three">
+                <ul>
+                    <li><a href="#">صفحه اصلی</a></li>
+                    <li class="drop-item"><a href="#">دوره های آموزشی</a>
+                        <ul class="drop-item__dropdown">
+                            <li class="cruse"></li>
+
+                            <li>
+                                <span class="icon"></span>
+
+                                <!-- <span><i class="fa fa-dot-circle-o"></i></span> -->
+                                <a href="#">همه دوره ها</a></li>
+                            <li>
+                                <span class="icon"></span>
+                                <a href="#">آخرین ویدیوها</a></li>
+                            <li>
+                                <span class="icon"></span>
+                                <a href="#">گام های یادگیری</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">بحث و گفتگوها</a></li>
+                    <li><a href="#">مقالات</a></li>
+                    <li><a href="#">راکت ساز</a></li>
+                    <li><a href="#">رزومه ساز</a></li>
+                </ul>
+                
+            </div>
+        </div>
+        <!-- end header -->
+        
+        <div class="pic">
+            <div class="pic__main">
+                <img src="pic/header__firstImage.png" alt="">
+                <div class="pic__main_title">
+                    <h2>تو خونه‌ بمونیم و برنامه‌نویسی یاد بگیریم
+                    </h2>
+                    <p>ما باور داریم که کاربران ایرانی لایق بهترین‌ها هستند، از این رو ما تمام تلاش خود را می‌کنیم تا بتوانیم فیلم‌ها و مقالات آموزشی بروز و کاربردی را در اختیارتان قرار دهیم تا با استفاده از آنها بتوانید جزء بهترین‌ها در صنعت طراحی و برنامه‌نویسی وب شوید. ما ادعا نمی‌کنیم که بهترین هستیم ولی همیشه تمام تلاش خود را می‌کنیم بهترین عملکرد را به شما ارائه دهیم.</p>
+
+    
+                </div>
+                
+            </div>
+            <div class="pic__pic">
+                <img src="pic/mydeveloper.svg" alt="develop">
+            </div>
+        </div>
+        <!-- end pic -->
+        <div class="curses">
+            <div class="curses-container">
+                <div class="curses__head">
+                    <ul>
+                        <li><a href="#">جدیدترین دوره ها</a></li>
+                        <li><a href="#">دوره های پیشنهادی</a></li>
+                    </ul>
+                    <a href="#">مشاهده همه دوره ها</a>
+                </div>
+                <div class="curses__body">
+                    <div class="curses__body_item">
+                        <div class="curses__body_item-img">
+                            <a href="#">                        
+                                <img src="pic/node.png" alt="">
+                            </a>
+                            <div class="icon-bookmark">
+                            <i class="fa fa-bookmark-o"></i>
+                            </div>
+                        </div>
+                        <div class="curses__body_item-body">
+                            <a href="#">
+                                <h3>آشنایی با امکانات جدید لاراول ۷</h3>
+                            </a>
+                            <p>
+                                لاراول ۷ به تازگی توسط تیم توسعه دهنده لاراول معرفی شده، ما قصد داریم در این دوره امکانات جدیدی که به واسطه لاراول ۷ در اختیار توسعه دهندگان قرار گرفت...
+                            </p>
+                            <div class="curses__body_item-footer">
+                                <div class="state">
+                                    <span class="time">
+                                        ۰۱:۵۰:۰۶ 
+                                        <i class="fa fa-clock-o"></i>
+                                    </span>
+                                    <span class="like">
+                                        ۵۰
+                                        <i class="fa fa-heart-o"></i>
+                                    </span>
+
+                                </div>
+                                <div class="price">
+                                    <span>رایگان</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="curses__body_item">
+                        <div class="curses__body_item-img">
+                            <a href="#">                        
+                                <img src="pic/1583305013laravel-poster-1.png" alt="">
+                            </a>
+                            <div class="icon-bookmark">
+                               <i class="fa fa-bookmark-o"></i>
+                            </div>
+                        </div>
+                        <div class="curses__body_item-body">
+                            <a href="#">
+                                <h3>آشنایی با امکانات جدید لاراول ۷</h3>
+                            </a>
+                            <p>
+                                لاراول ۷ به تازگی توسط تیم توسعه دهنده لاراول معرفی شده، ما قصد داریم در این دوره امکانات جدیدی که به واسطه لاراول ۷ در اختیار توسعه دهندگان قرار گرفت...
+                            </p>
+                            <div class="curses__body_item-footer">
+                                <div class="state">
+                                    <span class="time">
+                                        ۰۱:۵۰:۰۶ 
+                                        <i class="fa fa-clock-o"></i>
+                                    </span>
+                                    <span class="like">
+                                        ۵۰
+                                        <i class="fa fa-heart-o"></i>
+                                    </span>
+
+                                </div>
+                                <div class="price">
+                                    <span>رایگان</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <div class="curses__body_item">
+                    <div class="curses__body_item-img">
+                        <a href="#">                        
+                            <img src="pic/laravel-projects-2.png" alt="">
+                        </a>
+                        <div class="icon-bookmark">
+                            <i class="fa fa-bookmark-o"></i>
+                        </div>
+                    </div>
+                    <div class="curses__body_item-body">
+                        <a href="#">
+                            <h3>آشنایی با امکانات جدید لاراول ۷</h3>
+                        </a>
+                        <p>
+                            لاراول ۷ به تازگی توسط تیم توسعه دهنده لاراول معرفی شده، ما قصد داریم در این دوره امکانات جدیدی که به واسطه لاراول ۷ در اختیار توسعه دهندگان قرار گرفت...
+                        </p>
+                        <div class="curses__body_item-footer">
+                            <div class="state">
+                                <span class="time">
+                                    ۰۱:۵۰:۰۶ 
+                                    <i class="fa fa-clock-o"></i>
+                                </span>
+                                <span class="like">
+                                    ۵۰
+                                    <i class="fa fa-heart-o"></i>
+                                </span>
+
+                            </div>
+                            <div class="price">
+                                <span>رایگان</span>
+                            </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="curses__body_item">
+                    <div class="curses__body_item-img">
+                        <a href="#">                        
+                            <img src="pic/laravel-2.png" alt="">
+                        </a>
+                        <div class="icon-bookmark">
+                            <i class="fa fa-bookmark-o"></i>
+                        </div>
+                    </div>
+                    <div class="curses__body_item-body">
+                        <a href="#">
+                            <h3>آشنایی با امکانات جدید لاراول ۷</h3>
+                        </a>
+                        <p>
+                            لاراول ۷ به تازگی توسط تیم توسعه دهنده لاراول معرفی شده، ما قصد داریم در این دوره امکانات جدیدی که به واسطه لاراول ۷ در اختیار توسعه دهندگان قرار گرفت...
+                        </p>
+                        <div class="curses__body_item-footer">
+                            <div class="state">
+                                <span class="time">
+                                    ۰۱:۵۰:۰۶ 
+                                    <i class="fa fa-clock-o"></i>
+                                </span>
+                                <span class="like">
+                                    ۵۰
+                                    <i class="fa fa-heart-o"></i>
+                                </span>
+
+                            </div>
+                            <div class="price">
+                                <span>رایگان</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- end curse -->
+        <div class="talking">
+            <div class="talk-back"></div>
+            <div class="bg-circle"></div>
+            <div class="tlalking__column-one">
+                <div class="column-container">
+                    <div class="column-header">
+                        <h3>بحث و گفتگو</h3>
+                        <p><i class="fa fa-circle"></i>
+                            حل مشکلات و ارور‌های برنامه‌نویسی</p>
+                    </div>
+                    <div class="column-body">
+                        <div class="column-items">
+                            <div class="two-item">
+                            <div class="picture">
+                                <img src="pic/avatar1.png" alt="avatar">
+                            </div>
+                            <div class="descript">
+                                <a href="#"><h3>شاخه های برنامه نویسی</h3></a>
+                                <p>۷ دقیقه پیش
+                                    <span> توسط </span>
+                                    <a class="update" href="#">sina shah oveisi</a>
+                                    <span> آپدیت شد</span>
+                                </p>
+                            </div>
+                            </div>
+                            <div class="answer">
+                                <span class="ans-box">۱ پاسخ</span>
+                            </div>
+                            
+                        </div>
+                        <div class="column-items">
+                            <div class="two-item">
+                                <div class="picture">
+                                    <img src="pic/avatar1.png" alt="avatar">
+                                </div>
+                                <div class="descript">
+                                    <a href="#"><h3>شاخه های برنامه نویسی</h3></a>
+                                    <p>۷ دقیقه پیش
+                                        <span> توسط </span>
+                                        <a class="update" href="#">sina shah oveisi</a>
+                                        <span> آپدیت شد</span>
+                                    </p>
+                                </div>
+                                </div>
+                                <div class="answer">
+                                    <span class="ans-box">۱ پاسخ</span>
+                                </div>
+                        </div>
+                        <div class="column-items">
+                            <div class="two-item">
+                                <div class="picture">
+                                    <img src="pic/avatar1.png" alt="avatar">
+                                </div>
+                                <div class="descript">
+                                    <a href="#"><h3>شاخه های برنامه نویسی</h3></a>
+                                    <p>۷ دقیقه پیش
+                                        <span> توسط </span>
+                                        <a class="update" href="#">sina shah oveisi</a>
+                                        <span> آپدیت شد</span>
+                                    </p>
+                                </div>
+                                </div>
+                                <div class="answer">
+                                    <span class="ans-box">۱ پاسخ</span>
+                                </div>
+                        </div>
+                        <div class="column-items">
+                            <div class="two-item">
+                                <div class="picture">
+                                    <img src="pic/avatar1.png" alt="avatar">
+                                </div>
+                                <div class="descript">
+                                    <a href="#"><h3>شاخه های برنامه نویسی</h3></a>
+                                    <p>۷ دقیقه پیش
+                                        <span> توسط </span>
+                                        <a class="update" href="#">sina shah oveisi</a>
+                                        <span> آپدیت شد</span>
+                                    </p>
+                                </div>
+                                </div>
+                                <div class="answer">
+                                    <span class="ans-box">۱ پاسخ</span>
+                                </div>
+                        </div>
+                        <div class="column-items">
+                            <div class="two-item">
+                                <div class="picture">
+                                    <img src="pic/avatar1.png" alt="avatar">
+                                </div>
+                                <div class="descript">
+                                    <a href="#"><h3>شاخه های برنامه نویسی</h3></a>
+                                    <p>۷ دقیقه پیش
+                                        <span> توسط </span>
+                                        <a class="update" href="#">sina shah oveisi</a>
+                                        <span> آپدیت شد</span>
+                                    </p>
+                                </div>
+                                </div>
+                                <div class="answer">
+                                    <span class="ans-box">۱ پاسخ</span>
+                                </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="see-more">
+                    <a href="#">مشاهده همه گفتگوها</a>
+                </div>
+            </div>
+        
+            <div class="tlalking__column-two">
+                <div class="column-container">
+                    <div class="column-header">
+                        <div class="title">
+                            <h3>آخرین ویدیو‌های آموزشی</h3>
+                            <p><i class="fa fa-circle"></i>حل مشکلات و ارور‌های برنامه‌نویسی</p>
+                        </div>
+                        <div class="videos">
+                            <a href="#">همه ویدیو‌ها</a>
+                        </div>
+                    </div>
+                    <div class="column-body">
+                        <div class="column-items">
+                            <a href="#"><h3>شاخه های برنامه نویسی</h3></a>
+                            <p>
+                                <a class="update" href="#">دوره پروژه محور لاراول</a>
+                                <span>- قسمت  ۷۲ </span>
+                            </p>
+                        </div>
+                        <div class="column-items">
+                            <a href="#"><h3>شاخه های برنامه نویسی</h3></a>
+                            <p>
+                                <a class="update" href="#">دوره پروژه محور لاراول</a>
+                                <span>- قسمت  ۷۲ </span>
+                            </p>
+                        </div>
+                        <div class="column-items">
+                            <a href="#"><h3>شاخه های برنامه نویسی</h3></a>
+                            <p>
+                                <a class="update" href="#">دوره پروژه محور لاراول</a>
+                                <span>- قسمت  ۷۲ </span>
+                            </p>
+                        </div>
+                        <div class="column-items">
+                            <a href="#"><h3>شاخه های برنامه نویسی</h3></a>
+                            <p>
+                                <a class="update" href="#">دوره پروژه محور لاراول</a>
+                                <span>- قسمت  ۷۲ </span>
+                            </p>
+                        </div>
+                        <div class="column-items">
+                            <a href="#"><h3>شاخه های برنامه نویسی</h3></a>
+                            <p>
+                                <a class="update" href="#">دوره پروژه محور لاراول</a>
+                                <span>- قسمت  ۷۲ </span>
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+        <!-- end talking -->
+
+        <div class="curses">
+            <div class="curses-container">
+                <div class="curses__head">
+                    <ul>
+                        <li><a href="#">آخرین مقالات</a></li>
+                    </ul>
+                    <a href="#">مشاهده همه مقالات</a>
+                </div>
+                <!-- body -->
+
+                <div class="curses__body">
+                    <div class="curses__body_item">
+                        <div class="curses__body_item-img">
+                            <a href="#">                        
+                                <img src="pic/basic-linux-commands-bash-tips-you-should-know.jpg" alt="">
+                            </a>
+                            <div class="icon-bookmark">
+                                <i class="fa fa-bookmark-o"></i>
+                            </div>
+                        </div>
+                        <div class="curses__body_item-body">
+                            <a href="#" class="subitem">
+                                تجربه کاربری .
+                                <span>خواندن در ۶ دقیقه</span>
+                            </a>
+                            <h3>۵ نمونه از طراحی خوب UX که هر طراح باید ببیند</h3>
+                            <div class="hashtags">
+                                <a href="#" class="hashtags__item">
+                                    <span>#تجربه_کاربری</span>
+                                    <span>#UX</span>
+                                </a>
+                            </div>
+                            <div class="curses__body_item-footer">
+                                <div class="state">
+                                    <span class="eye">
+                                        ۱۱۲
+                                        <i class="fa fa-eye"></i>
+                                    </span>
+
+                                    <span class="like">
+                                        ۵۰
+                                        <i class="fa fa-heart-o"></i>
+                                    </span>
+                          
+
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="curses__body_item">
+                        <div class="curses__body_item-img">
+                            <a href="#">                        
+                                <img src="pic/good-ux-examples.jpg" alt="">
+                            </a>
+                            <div class="icon-bookmark">
+                                <i class="fa fa-bookmark-o"></i>
+                            </div>
+                        </div>
+                        <div class="curses__body_item-body">
+                            <a href="#" class="subitem">
+                                تجربه کاربری .
+                                <span>خواندن در ۶ دقیقه</span>
+                            </a>
+                            <h3>۵ نمونه از طراحی خوب UX که هر طراح باید ببیند</h3>
+                            <div class="hashtags">
+                                <a href="#" class="hashtags__item">
+                                    <span>#تجربه_کاربری</span>
+                                    <span>#UX</span>
+                                </a>
+                            </div>
+                            <div class="curses__body_item-footer">
+                                <div class="state">
+                                    <span class="eye">
+                                        ۱۱۲
+                                        <i class="fa fa-eye"></i>
+                                    </span>
+
+                                    <span class="like">
+                                        ۵۰
+                                        <i class="fa fa-heart-o"></i>
+                                    </span>
+                                    
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="curses__body_item">
+                        <div class="curses__body_item-img">
+                            <a href="#">                        
+                                <img src="pic/seo-tricks-to-get-more-leads.jpg" alt="">
+                            </a>
+                            <div class="icon-bookmark">
+                                <i class="fa fa-bookmark-o"></i>
+                            </div>
+                        </div>
+                        <div class="curses__body_item-body">
+                            <a href="#" class="subitem">
+                                تجربه کاربری .
+                                <span>خواندن در ۶ دقیقه</span>
+                            </a>
+                            <h3>۵ نمونه از طراحی خوب UX که هر طراح باید ببیند</h3>
+                            <div class="hashtags">
+                                <a href="#" class="hashtags__item">
+                                    <span>#تجربه_کاربری</span>
+                                    <span>#UX</span>
+                                </a>
+                            </div>
+                            <div class="curses__body_item-footer">
+                                <div class="state">
+                                    <span class="eye">
+                                        ۱۱۲
+                                        <i class="fa fa-eye"></i>
+                                    </span>
+
+                                    <span class="like">
+                                        ۵۰
+                                        <i class="fa fa-heart-o"></i>
+                                    </span>
+                          
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="curses__body_item">
+                        <div class="curses__body_item-img">
+                            <a href="#">                        
+                                <img src="pic/7-qualities-that-differentiate-a-good-programmer-from-a-great-programmer.jpg" alt="">
+                            </a>
+                            <div class="icon-bookmark">
+                                <i class="fa fa-bookmark-o"></i>
+                            </div>
+                        </div>
+                        <div class="curses__body_item-body">
+                            <a href="#" class="subitem">
+                                تجربه کاربری .
+                                <span>خواندن در ۶ دقیقه</span>
+                            </a>
+                            <h3>۵ نمونه از طراحی خوب UX که هر طراح باید ببیند</h3>
+                            <div class="hashtags">
+                                <a href="#" class="hashtags__item">
+                                    <span>#تجربه_کاربری</span>
+                                    <span>#UX</span>
+                                </a>
+                            </div>
+                            <div class="curses__body_item-footer">
+                                <div class="state">
+                                    <span class="eye">
+                                        ۱۱۲
+                                        <i class="fa fa-eye"></i>
+                                    </span>
+
+                                    <span class="like">
+                                        ۵۰
+                                        <i class="fa fa-heart-o"></i>
+                                    </span>
+                          
+                                </div>
+                                
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+    
+        <div class="curses">
+            <div class="curses-container">
+
+                <div class="curses__body">
+                    <div class="curses__body_item">
+                        <div class="curses__body_item-img">
+                            <a href="#">                        
+                                 <img src="pic/digital-marketing-must-haves-for-every-business.jpg" alt="">
+                            </a>
+                            <div class="icon-bookmark">
+                                <i class="fa fa-bookmark-o"></i>
+                            </div>
+                        </div>
+                        <div class="curses__body_item-body">
+                            <a href="#" class="subitem">
+                                تجربه کاربری .
+                            <span>خواندن در ۶ دقیقه</span>
+                            </a>
+                            <h3>۵ نمونه از طراحی خوب UX که هر طراح باید ببیند</h3>
+                            <div class="hashtags">
+                                <a href="#" class="hashtags__item">
+                                    <span>#تجربه_کاربری</span>
+                                    <span>#UX</span>
+                                </a>
+                            </div>
+                            <div class="curses__body_item-footer">
+                                <div class="state">
+                                    <span class="eye">
+                                        ۱۱۲
+                                        <i class="fa fa-eye"></i>
+                                    </span>
+
+                                    <span class="like">
+                                        ۵۰
+                                        <i class="fa fa-heart-o"></i>
+                                    </span>
+                      
+
+                                </div>
+                            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="curses__body_item">
+                        <div class="curses__body_item-img">
+                            <a href="#">                        
+                                <img src="pic/pwa-vs-amp-what-is-the-difference-and-how-do-you-choose.jpg" alt="">
+                            </a>
+                            <div class="icon-bookmark">
+                                <i class="fa fa-bookmark-o"></i>
+                            </div>
+                        </div>
+                        <div class="curses__body_item-body">
+                            <a href="#" class="subitem">
+                                تجربه کاربری .
+                                <span>خواندن در ۶ دقیقه</span>
+                            </a>
+                            <h3>۵ نمونه از طراحی خوب UX که هر طراح باید ببیند</h3>
+                            <div class="hashtags">
+                                <a href="#" class="hashtags__item">
+                                    <span>#تجربه_کاربری</span>
+                                    <span>#UX</span>
+                                </a>
+                            </div>
+                            <div class="curses__body_item-footer">
+                                <div class="state">
+                                    <span class="eye">
+                                        ۱۱۲
+                                        <i class="fa fa-eye"></i>
+                                    </span>
+
+                                    <span class="like">
+                                        ۵۰
+                                        <i class="fa fa-heart-o"></i>
+                                    </span>
+                      
+                                </div>
+                            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="curses__body_item">
+                        <div class="curses__body_item-img">
+                            <a href="#">                        
+                                <img src="pic/11-best-chrome-extensions-for-seo.jpg" alt="">
+                            </a>
+                            <div class="icon-bookmark">
+                                <i class="fa fa-bookmark-o"></i>
+                            </div>
+                        </div>
+                        <div class="curses__body_item-body">
+                            <a href="#" class="subitem">
+                                تجربه کاربری .
+                                <span>خواندن در ۶ دقیقه</span>
+                            </a>
+                            <h3>۵ نمونه از طراحی خوب UX که هر طراح باید ببیند</h3>
+                            <div class="hashtags">
+                                <a href="#" class="hashtags__item">
+                                    <span>#تجربه_کاربری</span>
+                                    <span>#UX</span>
+                                </a>
+                            </div>
+                            <div class="curses__body_item-footer">
+                                <div class="state">
+                                    <span class="eye">
+                                        ۱۱۲
+                                        <i class="fa fa-eye"></i>
+                                    </span>
+
+                                    <span class="like">
+                                        ۵۰
+                                        <i class="fa fa-heart-o"></i>
+                                    </span>
+                      
+
+                                </div>
+                            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="curses__body_item">
+                        <div class="curses__body_item-img">
+                            <a href="#">                        
+                                <img src="pic/parallel-programming-grandmother.jpg" alt="">
+                            </a>
+                            <div class="icon-bookmark">
+                                <i class="fa fa-bookmark-o"></i>
+                            </div>
+                        </div>
+                        <div class="curses__body_item-body">
+                            <a href="#" class="subitem">
+                                تجربه کاربری .
+                                <span>خواندن در ۶ دقیقه</span>
+                            </a>
+                            <h3>۵ نمونه از طراحی خوب UX که هر طراح باید ببیند</h3>
+                            <div class="hashtags">
+                                <a href="#" class="hashtags__item">
+                                    <span>#تجربه_کاربری</span>
+                                    <span>#UX</span>
+                                </a>
+                            </div>
+                            <div class="curses__body_item-footer">
+                                <div class="state">
+                                    <span class="eye">
+                                        ۱۱۲
+                                        <i class="fa fa-eye"></i>
+                                    </span>
+
+                                    <span class="like">
+                                        ۵۰
+                                        <i class="fa fa-heart-o"></i>
+                                    </span>
+                      
+                                </div>
+                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    
+        <!--rocekt cast  -->
+        <div class="talking">
+            <div class="talk-back"></div>
+            <div class="bg-circle"></div>
+            <div class="curses">
+                <div class="curses-container">
+                    <div class="curses__head-talk">
+                    <h3><a href="#"> راکت کست</a></h3>
+                    <a href="#"><i class="fa fa-circle"></i>
+                        پادکست‌های اختصاصی طراحی و برنامه‌نویسی
+                    </a>
+                    </div>
+                    <!-- body -->
+    
+                    <div class="curses__body">
+                    <div class="curses__body_item">
+                        <div class="curses__body_item-img">
+                            <a  class="filter" href="#">                        
+                                <img class="filter" src="pic/how-can-be-better-programmer.jpg" alt="">
+                            </a>
+                            <div class="icon-microfon">
+                                <i class="fa fa-microphone"></i>
+                            </div>
+                        </div>
+                        <div class="curses__body_item-body">
+                            <a href="#">
+                                <h3>چطور برنامه‌نویس بهتری باشیم</h3>
+                            </a>
+                            <div class="padkast">
+                                <span>پادکست شماره ۱۶ -</span>
+                                <span class="time">۱۹:۴۵ دقیقه</span>
+                            </div>
+                            <p>
+
+                                چطور برنامه‌ نویس بهتری باشیم، تقریبا همه ما یکبار این سوال رو از خودمان پرسیده‌ایم، حالا در این راکت‌کست قصد دارم راه‌ حل‌های را شرح دهم که خودم شخصا از آن‌ها استفاده می‌کنم. البته شما در جایگاه شنون...
+                            </p>
+                            
+                        </div>
+                    </div>
+                    <div class="curses__body_item">
+                        <div class="curses__body_item-img">
+                            <a class="filter" href="#">                        
+                                <img  src="pic/php.jpg" alt="">
+                            </a>
+                            <div class="icon-microfon">
+                                <i class="fa fa-microphone"></i>
+                            </div>
+                        </div>
+                        <div class="curses__body_item-body">
+                            <a href="#">
+                                <h3>چطور برنامه‌نویس بهتری باشیم</h3>
+                            </a>
+                            <div class="padkast">
+                                <span>پادکست شماره ۱۶ -</span>
+                                <span class="time">۱۹:۴۵ دقیقه</span>
+                            </div>
+                            <p>
+
+                                چطور برنامه‌ نویس بهتری باشیم، تقریبا همه ما یکبار این سوال رو از خودمان پرسیده‌ایم، حالا در این راکت‌کست قصد دارم راه‌ حل‌های را شرح دهم که خودم شخصا از آن‌ها استفاده می‌کنم. البته شما در جایگاه شنون...
+                            </p>
+                        </div>
+                    </div>
+                    <div class="curses__body_item">
+                        <div class="curses__body_item-img">
+                            <a class="filter" href="#">                        
+                                <img  src="pic/project-price.png" alt="">
+                            </a>
+                            <div class="icon-microfon">
+                                <i class="fa fa-microphone"></i>
+                            </div>
+                        </div>
+                        <div class="curses__body_item-body">
+                            <a href="#">
+                                <h3>چطور برنامه‌نویس بهتری باشیم</h3>
+                            </a>
+                            <div class="padkast">
+                                <span>پادکست شماره ۱۶ -</span>
+                                <span class="time">۱۹:۴۵ دقیقه</span>
+                            </div>
+                            <p>
+
+                                چطور برنامه‌ نویس بهتری باشیم، تقریبا همه ما یکبار این سوال رو از خودمان پرسیده‌ایم، حالا در این راکت‌کست قصد دارم راه‌ حل‌های را شرح دهم که خودم شخصا از آن‌ها استفاده می‌کنم. البته شما در جایگاه شنون...
+                            </p>
+                        </div>
+                    </div>
+                    <div class="curses__body_item">
+                        <div class="curses__body_item-img">
+                            <a class="filter" href="#">                        
+                                <img src="pic/wordpress.png" alt="">
+                            </a>
+                            <div class="icon-microfon">
+                                <i class="fa fa-microphone"></i>
+                            </div>
+                        </div>
+                        <div class="curses__body_item-body">
+                            <a href="#">
+                                <h3>چطور برنامه‌نویس بهتری باشیم</h3>
+                            </a>
+                            <div class="padkast">
+                                <span>پادکست شماره ۱۶ -</span>
+                                <span class="time">۱۹:۴۵ دقیقه</span>
+                            </div>
+                            <p>
+
+                                چطور برنامه‌ نویس بهتری باشیم، تقریبا همه ما یکبار این سوال رو از خودمان پرسیده‌ایم، حالا در این راکت‌کست قصد دارم راه‌ حل‌های را شرح دهم که خودم شخصا از آن‌ها استفاده می‌کنم. البته شما در جایگاه شنون...
+                            </p>    
+                    
+                    </div>
+                    </div>
+                    <div class="end-items">
+                    <p>در این سری راکت‌کست‌ها، سعی ما بر این است که موارد مختلف از دنیای طراحی و برنامه‌نویسی را مورد بحث قرار دهیم.</p>
+                    <div class="see-more">
+                        <a href="#">مشاهده همه </a>
+                    </div>                
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-top">
+                <div class="about">
+                    <div class="about__header">
+                       <h4>درباره راکت</h4>
+                    </div>
+                    <div class="about__body">
+                       <p>راکت یکی از پرتلاش‌ترین و بروزترین وبسایت های آموزشی در سطح ایران است که همیشه تلاش کرده تا بتواند جدیدترین و بروزترین مقالات و دوره‌های آموزشی را در اختیار علاقه‌مندان ایرانی قرار دهد. تبدیل کردن برنامه نویسان ایرانی به بهترین برنامه نویسان جهان هدف ماست</p>
+                    </div>
+                </div>
+                <div class="site-section">
+                    <div class="site-section__header">
+                        <h4>بخش های سایت</h4>
+                    </div>
+                    <div class="site-section__body">
+                        <ul>
+                           <li><a href="#">قوانین و مقررات</a></li>
+                           <li><a href="#">تبلیغات</a></li>
+                           <li><a href="#">درباره راکت</a></li>
+                           <li><a href="#">ارتباط با ما</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="contact">
+                    <div class="contact__header">
+                        <h4>ارتباط با ما
+                        </h4>
+                    </div>
+                    <div class="contact__body">
+                       <p>شما میتوانید با استفاده از یکی از راه‌های زیر با ما ارتباط برقرار کنید</p>
+                        <ul>
+                           <li>
+                               <i class="fa fa-envelope"></i>
+                                ایمیل :‌ 
+                               <a href="#">info@roocket.ir</a>
+                            </li>
+                           <li>
+                               <i class="fa fa-telegram"></i> ای دی تلگرام :‌
+                               <a href="#"> roocket_support@</a> 
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div class="footer-end">
+                <p>
+                    کليه حقوق محصولات و محتوای اين سایت متعلق به راکت می باشد و هر گونه کپی برداری از محتوا و محصولات سایت غیر مجاز و بدون رضایت ماست
+                </p>
+                <div class="social">
+                    <a href="#"><i class="fa fa-facebook-square"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                    <a href="#"><i class="fa fa-rss-square"></i></a>
+                    <a href="#"><i class="fa fa-twitter-square"></i></a>
+                    <a href="#"><i class="fa fa-telegram"></i></a>
+                </div>
+            </div>
+        </div>
+        
+</body>
+<script src="main.js"></script>
+</html>
